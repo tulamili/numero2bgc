@@ -10,7 +10,7 @@ This module provides a Unix-like command `numero2bgc'.
    (出現数値をuniq化した上で、28分位点をとり、奇数番目の値14個を抽出して、
    それを閾値として、色は段階的に変化させる。)
 
-
+![コマンド実行例](img1.png)
 
 ▼ 提供するソフトウェアについてのライセンス表示
 
