@@ -1,6 +1,6 @@
 package App::numero2bgc ;  
-our $VERSION = '0.020' ; 
-our $DATE = '2022-10-29T18:23+09:00' ; 
+our $VERSION = '0.021' ; 
+our $DATE = '2022-10-29T21:46+09:00' ; 
 
 =encoding utf8
 
