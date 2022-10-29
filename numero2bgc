@@ -65,10 +65,11 @@ END {
   #@tmp = uniq @tmp ; 
   #my $difc = scalar @tmp ;
   my $difc = scalar keys %usedC ;
-  print STDERR FAINT "$difc different background colors used ; " ;
+  select STDERR ; # 以降の出力は STDERR とする。
+  print FAINT "$difc different background colors used ; " ;
   #my $alv = scalar uniq @chop  ; 
   #print STDERR FAINT "Different $alv are prepared ; " ;
-  print STDERR FAINT "Threadsholds = { " . join(" : ",@chop[1..$#chop])." } with the length $#chop." ; 
+  print FAINT "Threadsholds = { " . join(" : ",@chop[1..$#chop])." } with the length $#chop." ; 
   say FAINT " ($0)" ; 
 } ; #exit ;
 exit ;
